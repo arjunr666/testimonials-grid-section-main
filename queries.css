@@ -1,0 +1,51 @@
+@media (max-width: 65em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  .text-1 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    padding: 3.2rem;
+  }
+}
+
+@media (max-width: 49em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media (max-width: 31em) {
+  .card {
+    width: 50%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .one::after {
+    right: 2rem;
+  }
+}
+
+@media (max-width: 23em) {
+  .card {
+    width: 65%;
+  }
+}
